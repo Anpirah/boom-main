@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Digital';
+  src: url('../fonts/DS-DIGII.TTF') format('truetype') ;
+}
+@font-face {
+  font-family: 'Bomba';
+  src: url('../fonts/bomba.ttf') format('truetype') ;
+}
+
+body {
+  font-family: 'Digital';
+  background-color: #689a48;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Bomba';
+  font-size: 45px;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  text-transform: uppercase;
+}
+#result .green {
+  font-family: 'Digital';
+  color: #2ecc71;
+}
+
+#result .red {
+  font-family: 'Digital';
+  color: #e74c3c;
+}
+#userInput {
+  font-family: 'Digital';
+  font-size: 40px;
+  color: rgb(60, 129, 60);
+  box-shadow: none;
+  outline: none;
+  background-color: #b9f395;
+}
+#countdown {
+  font-family: 'Digital';
+  font-size: 80px;
+  color: #e74c3c;
+}
+#result{
+  font-family: 'Digital';
+  font-size: 30px;
+
+}
+#restart{
+  font-family: 'Digital';
+  font-size: 20px;
+  color: #ee6f61;
+  background-color: #527b38;
+  margin-top: 40px;
+}
